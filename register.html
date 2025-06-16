@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Personal Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">NevTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="offer.html">What We Offer</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="login.html">Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    
+        <!-- Contact section-->
+        <section class="bg-light py-5">
+            
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Register</h2>
+                
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        
+                        <form action="login.html" method="POST">                            
+                            <!-- Name input-->
+                            <div class="text-left">
+                                <p class="lead">Personal Information</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="first-name" name="first_name" type="text" placeholder="Enter your first name..." data-sb-validations="required" />
+                                        <label for="first-name">First Name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="first_name:required">A first name is required.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="last-name" name="last_name" type="text" placeholder="Enter your last name..." data-sb-validations="required" />
+                                        <label for="last-name">Last Name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="last_name:required">A last name is required.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="gender" name="gender" type="text" placeholder="Enter your gender..." data-sb-validations="required" />
+                                        <label for="gender">Gender</label>
+                                        <div class="invalid-feedback" data-sb-feedback="gender:required">Gender is required.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="dob" name="dob" type="date" placeholder="Enter your date of birth..." data-sb-validations="required" />
+                                        <label for="dob">Date of Birth</label>
+                                        <div class="invalid-feedback" data-sb-feedback="dob:required">Date of birth is required.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone Number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email Address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="text-left">
+                                <p class="lead">Address Details</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="street" name="street" type="text" placeholder="Enter your street..." data-sb-validations="required" />
+                                        <label for="street">Street</label>
+                                        <div class="invalid-feedback" data-sb-feedback="street:required">Street is required.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="city" name="city" type="text" placeholder="Enter your city..." data-sb-validations="required" />
+                                        <label for="city">City</label>
+                                        <div class="invalid-feedback" data-sb-feedback="city:required">City is required.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="province" name="province" type="text" placeholder="Enter your street..." data-sb-validations="required" />
+                                        <label for="street">Province/State</label>
+                                        <div class="invalid-feedback" data-sb-feedback="street:required">Province is required.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="zip" name="zip" type="text" placeholder="Enter your city..." data-sb-validations="required" />
+                                        <label for="city">Zip Code</label>
+                                        <div class="invalid-feedback" data-sb-feedback="city:required">Zip Code is required.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="country" name="country" type="text" placeholder="Enter your city..." data-sb-validations="required" />
+                                <label for="country">Country</label>
+                                <div class="invalid-feedback" data-sb-feedback="city:required">Country is required.</div>
+                            </div>
+                            <div class="text-left">
+                                <p class="lead">Account Details</p>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="username" name="username" type="text" placeholder="Enter your username..." data-sb-validations="required" />
+                                <label for="username">Username</label>
+                                <div class="invalid-feedback" data-sb-feedback="username:required">Username is required.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="password" name="password" type="password" placeholder="Enter your password..." data-sb-validations="required" />
+                                <label for="password">Password</label>
+                                <div class="invalid-feedback" data-sb-feedback="password:required">Password is required.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="confirm-password" name="confirm_password" type="password" placeholder="Confirm your password..." data-sb-validations="required" />
+                                <label for="confirm-password">Confirm Password</label>
+                                <div class="invalid-feedback" data-sb-feedback="confirm_password:required">Confirming your password is required.</div>
+                            </div>
+                            
+                            
+                            
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-grid"><button class="btn btn-secondary btn-lg" type="reset">Reset</button></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Earl Edward Jamil 2025</p></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
